@@ -41,7 +41,7 @@ const Rooms = ({ currentRoom, setShowListMenu, setCurrentRoom }) => {
         </li>
         <li
           onClick={() => {
-            handleRoomChange("JavaScript");
+            handleRoomChange("Coding");
           }}
           className={currentRoom === "Coding!" ? "active" : ""}
         >

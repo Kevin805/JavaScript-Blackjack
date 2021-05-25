@@ -24,6 +24,16 @@ const NavBar = ({ user, currentRoom, setCurrentRoom }) => {
               setShowListMenu(!showListMenu);
             }}
           >
+            <img
+              src=""
+              alt="menu"
+              style={{ opacity: showListMenu ? 0 : 1 }}
+            />
+            <img
+              src=""
+              alt="menu-cross"
+              style={{ opacity: showListMenu ? 1 : 0 }}
+            />
           </button>
           <ul
             className="list-menu"
